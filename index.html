@@ -3,19 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WEBSITE - MINH CHAU</title>
-    <link rel="stylesheet" href="bao.css"> <!-- Liên kết file CSS -->
+    <title>Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <h1>
-            Nguyễn Ngọc Minh Châu
-        </h1>
-        <p><strong>MSSV:</strong> 2180600149</p>
-        <p><strong>Ngày sinh:</strong> 08/04/2003</p>
-        <p><strong>Email:</strong> nguyenngocminhchau842003@gmail.com</p>
-        <p><strong>Địa chỉ:</strong> 123 Đường ABC, Quận XYZ, TP. Hồ Chí Minh</p>
-        <p><strong>Số điện thoại:</strong> 0123 456 789</p>
-    </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Portfolio</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header id="home" class="hero">
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Showcasing my skills and projects with professionalism</p>
+            <a href="#contact" class="btn">Get in Touch</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I’m a passionate professional dedicated to creating high-quality solutions. With years of experience, I specialize in delivering exceptional results.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Services</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <h3>Web Design</h3>
+                    <p>Creating modern and responsive websites.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Development</h3>
+                    <p>Building robust and scalable applications.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Consulting</h3>
+                    <p>Providing expert advice for your projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
